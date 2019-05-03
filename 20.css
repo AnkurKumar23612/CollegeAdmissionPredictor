@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* CSS Document */
+#head
+{
+	width:100%;
+	height:250px;
+	box-shadow:orange 2px 2px 2px;
+	position:relative;
+	
+}
+#gif
+{
+	width:25%;
+	height:240px;
+	background:pink;
+	margin-top:10px;
+	margin-left:75%;
+	border-radius:15px;
+	position:absolute;
+}
+#logo1
+{
+	width:15%;
+	height:220px;
+	background:pink;
+	margin-top:10px;
+	border-radius:15px;
+	position:absolute;
+}
+
+#heading
+{
+	width:46%;
+	height:65px;
+	margin-top:3px;
+	margin-left:25%;
+	/*margin-right:5%*/
+	position:absolute;
+}
+#banner{
+	width:100%;
+	height:400PX;
+	border-radius:10px;
+	background:#339;
+	margin-top:5px;
+	box-shadow:2px 2px 2px black;
+	float:left;
+}
+#news{
+	width:29%;
+	height:300px;
+	border-radius:5px;
+	background:#333;
+	margin-top:5px;
+	box-shadow:2px 2px 2px black;
+	float:left;
+	margin-left:1%;
+}
+
+
+
+#menu
+{
+width:65%;
+height:10px;
+bottom:60px;
+position:absolute;
+left:17%;
+	
+	/*position:relative; while posiytion relative here in menu ul li absolute problem arises*/
+}
+#menu ul
+{
+	margin-left:0%;
+	padding:0%;
+    list-style:none;
+}
+#menu ul li
+{
+	/*background:red;*/
+	width:18.75%;
+	float:left;
+	text-align:center;
+	border-radius:5px;
+	border:2px solid white;
+	position:relative;
+	height:50px;
+
+}
+
+#menu ul ul li
+{
+	
+	width:100%;
+	background:cyan;
+	opacity:1;
+}
+
+
+#menu ul ul
+{
+	position:absolute;
+	display:none;
+}
+
+
+#menu ul li:hover ul{
+display:block;
+}
+#menu ul li a
+{
+	text-decoration:none;
+	display:block;
+	color:blue;
+ text-align:center;
+}
+
+
+#menu ul li a:hover{
+	
+		color:white;
+		background:blue;
+}
+
+#bd{
+width:100%;
+height:500px;
+background:grey;
+border:3px solid violet;
+border radius:15px;
+}
+.b 
+{
+width:25%;
+height:500px;
+border:blue solid 2px;
+/*background:#993;*/
+background:#09F;
+position:absolute;
+border-radius:15px;
+margin-top:5px;
+
+}
+#c
+{
+width:72%;
+height:500px;
+border:green solid 2px;
+background:#660;
+position:absolute;
+border-radius:15px;
+margin-top:5px;
+left:27%;
+}
+#a
+{
+	text-decoration:none;
+}
+
+
+
+
+
+#quality
+{
+	width:100%;
+	height:44%;
+	position:absolute;
+	
+	margin-left:-0.5%;
+	margin-top:420px;
+	background:#F5F5F5;
+	background-size:50%;
+	background-position:center;
+	background-repeat:no-repeat;
+	box-shadow:0px 2px 0px 0px #666666;
+}
+
+#circle
+{
+	width:15%;
+	height:70%;
+	float:left;
+	background:#F5F5F5;
+	position:relative;
+	
+	margin-left:2%;
+	margin-top:2.5%;
+	background-size:10%;
+	background-position:center;
+	background-repeat:no-repeat;
+	box-shadow:0px 2px 0px 0px #999999;
+}
+
+#circlein
+{
+	width:99%;
+	height:20%;
+	float:left;
+	background-color:#FF9;
+	position:relative;
+	border-radius:5%;
+	margin-top:25%;
+	text-align:center;
+	background-size:50%;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+
+
+
+
+#last
+{
+	width:100%;
+	height:400px;
+background:#69F;
+	margin-top:320px;
+	float:left;
+	position:relative;
+	}
+#last ul
+{
+	margin-left:0%;
+	padding:0%;
+    list-style:none;
+}
+#myphoto
+{
+	width:30%;
+	height:396px;
+	float:left;
+	margin-top:-420px;
+	margin-left:69.8%;
+	
+}
+#news{
+	width:80%;
+	height:396px;
+	border-radius:5px;
+	background:white;
+	margin-top:5px;
+	box-shadow:2px 2px 2px black;
+	float:left;
+	margin-left:20%;
+margin-top:2px;
+}
+#last1
+{
+	
+	width:20%;
+	height:100px;
+	float:left;
+}
+/*#meating
+{
+	width:40%;
+	height:20%;
+	position:absolute;
+	background-color:#FFF;
+	margin-left:22%;
+	margin-top:-420px;
+
+	box-shadow:2px 2px 2px 2px #AAAAAA;
+}
+
+#mtext
+{
+	width:60%;
+	height:30%;
+	float:left;
+	position:relative;
+	margin-left:6%;
+	margin-top:2%;
+	box-shadow:0px 1px 0px 0px #EEEEEE;
+}
+*/
+#mimg
+{
+	width:60%;
+	height:100px;
+	position:relative;
+	background:#E2E2E2;
+	margin-left:40%;
+	margin-top:-330px;
+	background:url(images/coffee.png); 8507300961 9939071305
+	background-position:center;
+	background-repeat:no-repeat;
+
+}
+
+
+
+@KEYFRAMES SLD{
+	0%{RIGHT:0%;}
+	10%{left:0%;}
+	15%{left:-100%;}
+	25%{left:-100%;}
+	30%{left:-200%;}
+	40%{left:-200%;}
+	45%{left:-300%;}
+	55%{left:-300%;}
+	60%{left:-400%;}
+	70%{left:-400%;}
+	75%{left:-500%;}
+	85%{left:-500%;}
+	90%{left:0%;}
+	100%{left:0%;}
+	
+
+}
+
+
+
+
+#SLIDER1{
+	POSITION:ABSOLUTE;
+overflow:hidden;
+}
+
+#SLIDER1 FIGURE{position:relative;
+width:500%;
+animation:20S infinite SLD;
+left:0;
+margin:0;
+}
+#SLIDER1 FIGURE IMG{
+	WIDTH:20%;
+	float:left;
+	HEIGHT:200PX;}
+
+
+#SLIDER1{position:relative;
+	border:1px solid red;
+	height:200px;
+	width:20%;
+	background:url(image/16.jpg);
+	margin:0px auto;
+	margin-top:5px;
+	z-index:-1;}

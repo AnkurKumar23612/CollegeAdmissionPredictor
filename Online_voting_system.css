@@ -1,0 +1,101 @@
+h1
+{
+	height: 100px;
+	text-align: center;
+
+}
+body
+{
+	background-color: #f1f1f1;
+}
+nav
+{
+	height: 100px;
+	text-align: center;
+}
+li
+{
+	
+	display: inline-block;
+	float: left;
+	width:205px;
+	
+}
+a li:hover {
+    background-color: #ccc;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+#section
+{
+	
+	width: 100%;
+	padding: 40px
+	border: 1px solid #ccc;
+	
+}
+#aside
+{
+	
+	width: 100%;
+	padding-top: 60px;
+
+}
+h4
+{
+	text-align: center;
+	padding-bottom: 40px;
+}
+h3
+{
+	padding: 70px;
+	text-align: center;
+
+}
+input[type=text], input[type=password], input[type=Number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+footer
+{
+	text-align: right;
+	color: black;
+	padding: 40px;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+    cursor: pointer;
+}
+
+.container {
+    padding: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
